@@ -9715,3 +9715,14 @@ textarea.form-control {
     .linkedin-icon:hover {
       transform: scale(1.1);  /* Zoom on hover */
     }
+    .leetcode {
+      display: inline-block;
+      width: 50px;  /* Adjust width as needed */
+      height: 50px;  /* Adjust height as needed */
+      border-radius: 50%;  /* Optional for rounded corners */
+      transition: transform 0.2s ease-in-out;  /* Animation for zoom effect */
+    }
+    
+    .leetcode:hover {
+      transform: scale(1.1);  /* Zoom on hover */
+    }
